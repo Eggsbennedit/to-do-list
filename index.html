@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora</title>
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <section id="backdrop">
+        <div id="historico"></div>
+        <div id="calculadora">
+            <div id="tela"><p id="display"></p></div>
+            <div id="conteudo">
+                <!-- tecla cria a tecla em si com fundo degradê
+                ctd cria o fundo branco
+                ctd-num faz com que o número continue com opacidade 1 quando a opacidade de ctd cair -->
+                <button id="1" class="tecla"><div class="ctd"></div><span class="ctd-num">1</span></button>
+                <button id="2" class="tecla"><div class="ctd"></div><span class="ctd-num">2</span></button>
+                <button id="3" class="tecla"><div class="ctd"></div><span class="ctd-num">3</span></button>
+                <button id="+" class="tecla"><div class="ctd"></div><span class="ctd-num">+</span></button>
+                <button id="4" class="tecla"><div class="ctd"></div><span class="ctd-num">4</span></button>
+                <button id="5" class="tecla"><div class="ctd"></div><span class="ctd-num">5</span></button>
+                <button id="6" class="tecla"><div class="ctd"></div><span class="ctd-num">6</span></button>
+                <button id="-" class="tecla"><div class="ctd"></div><span class="ctd-num">-</span></button>
+                <button id="7" class="tecla"><div class="ctd"></div><span class="ctd-num">7</span></button>
+                <button id="8" class="tecla"><div class="ctd"></div><span class="ctd-num">8</span></button>
+                <button id="9" class="tecla"><div class="ctd"></div><span class="ctd-num">9</span></button>
+                <button id="*" class="tecla"><div class="ctd"></div><span class="ctd-num">*</span></button>
+                <button id="C" class="tecla"><div class="ctd"></div><span class="ctd-num">C</span></button>
+                <button id="0" class="tecla"><div class="ctd"></div><span class="ctd-num">0</span></button>
+                <button id="/" class="tecla"><div class="ctd"></div><span class="ctd-num">/</span></button>
+                <button id="=" class="tecla"><div class="ctd"></div><span class="ctd-num">=</span></button>
+            </div>
+        </div>
+    </section>
+    <script src="main.js"></script>
+</body>
+</html>
